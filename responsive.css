@@ -1,0 +1,129 @@
+@media screen and (max-width:992px){
+
+    .mean-container .mean-bar{
+        z-index:20;
+    }
+
+    #top-header .left-menu label{
+        display:none;
+    }
+
+    #top-header .search-area .mobile-btn{
+        display:none;
+    }
+
+    #huge-title .image-area img{
+        width:100%;
+    }
+    #huge-title .title-area h2{
+        text-align:center;
+        font-size:45px;
+    }
+    #huge-title .title-area a{
+        float:left;
+        padding-bottom:20px;
+        padding-left:23px;
+    }
+
+
+
+    /* little-section */
+
+    #little-about-sec a{
+        float:left;
+    }
+
+
+    /* footer-section */
+
+  
+}
+
+
+@media screen and (max-width:768px){
+    .form-inline .form-control {
+        display: inline-block;
+        width: 77%;
+        vertical-align: middle;
+    }
+    #top-header .left-menu label{
+        display:block;
+    }
+    #top-header .search-area .search-box{
+        display:none;
+    }
+    #top-header .search-area .mobile-btn{
+        margin-top:9px;
+        display:block;
+    }
+    .top-header ul{
+        padding: 0;
+        margin-top:-300%;
+        transition:0.3s;
+    }
+    .top-header .left-menu i{
+        margin-top:18px;
+    }
+    .top-header .fa-times{
+        display:none;
+    }
+    #top-chk:checked ~ .top-menu-ul{
+        margin:0;
+        display:block;
+    }
+    #top-chk:checked ~ label .fa-bars{
+        display:none;
+    }
+    #top-chk:checked ~ label .fa-times{
+        display:block;
+    }
+    .top-header ul li{
+        display:block;
+        list-style-type:none;
+        padding:0 1px;
+        margin-left: 0;
+    }
+    .top-header ul li:after{
+        display:none;   
+    }
+
+    #logo-sec h2{
+        font-size: 30px;
+    }
+    #logo-sec .icon-area {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    #logo-sec ul li a{
+        padding: 4px 5px;
+        font-size: 20px;
+
+    }
+}
+
+
+@media screen and (max-width:568px){
+    #logo-sec ul li a {
+        font-size: 18px;
+    }
+    #logo-sec h2 {
+        font-size: 24px;
+    }
+    
+element {
+
+}
+.form-inline .form-control {
+
+    width: 72%;
+
+}
+
+}
+
+@media screen and (max-width:370px){
+    #logo-sec ul li a{
+        font-size: 15px;
+    }
+}
